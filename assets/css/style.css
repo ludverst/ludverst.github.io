@@ -282,4 +282,75 @@ section {
   border: 2px solid #0563bb;
 }
 
+/*--------------------------------------------------------------
+# My Services
+--------------------------------------------------------------*/
+.services .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #45505b;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+}
+
+.services .icon {
+  margin: 0 auto 20px auto;
+  padding-top: 18px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+}
+
+.services .img {
+  margin: 0 auto 20px auto;
+  padding-top: 0px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+}
+
+.services .icon i {
+  font-size: 36px;
+  line-height: 1;
+  color: #0563bb;
+}
+
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .title a {
+  color: #111;
+  transition: 0.3s;
+}
+
+.services .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .icon-box {
+    flex: 0 0 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .icon-box {
+    flex: 0 0 100%; 
+  }
+}
+
+
+
+
 
